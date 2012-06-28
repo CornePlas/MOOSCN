@@ -1,6 +1,13 @@
 The ParadisEO framework is required to run this optimization problem. 
 ParadisEO 1.3-beta2 is used, see http://paradiseo.gforge.inria.fr/ for 
-more information and to download it.
+more information and to download/install.
+
+Note: It is also required to copy some directories/files in the 
+ParadisEO installation. The following directories have to be copied, or 
+files from the directory in case the directory already exists: 
+	eval, explorer and neighborhood 
+from <install-dir>/paradiseo-mo/src to <install-dir>/paradiseo-moeo/src
+The default installation directory is 'paradiseo-1.3-beta2'
 
 The model and data used for this implementation is based on Maladis et. al. 
 See http://repub.eur.nl/res/pub/20374/ for the description of the model and 
