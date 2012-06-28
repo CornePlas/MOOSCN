@@ -1,0 +1,17 @@
+The ParadisEO framework is required to run this optimization problem. 
+ParadisEO 1.2.1 is used, see http://paradiseo.gforge.inria.fr/ for 
+more information and to download it.
+
+The model and data used for this implementation is based on Maladis et. al. 
+See http://repub.eur.nl/res/pub/20374/ for the description of the model and 
+http://repub.eur.nl/res/pub/20375/ contains the data.
+
+To run this ParadisEO implementation: 
+
+1. In 'install.cmake' change the PARADISEO_DIR to the directory where
+ParadisEO has been installed. 
+2. mkdir build
+3. cd build
+4. cmake ..
+5. make
+6. ./application/SCN_NSGAII
